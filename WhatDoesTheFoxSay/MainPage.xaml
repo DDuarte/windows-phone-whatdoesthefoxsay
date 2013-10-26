@@ -15,26 +15,15 @@
 
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid x:Name="ContentPanel">
-            <!--<Grid>
-                <MediaElement x:Name="FoxSound" Source="/Assets/what_does_the_fox_say.mp3" AutoPlay="False" />
-                <MediaElement x:Name="AheeSound" Source="/Assets/ahee.mp3" AutoPlay="False" />
-                <MediaElement x:Name="AoooSound" Source="/Assets/aooo.mp3" AutoPlay="False" />
-                <MediaElement x:Name="ChachaSound" Source="/Assets/chacha.mp3" AutoPlay="False" />
-                <MediaElement x:Name="FrakaSound" Source="/Assets/fraka.mp3" AutoPlay="False" />
-                <MediaElement x:Name="GeringSound" Source="/Assets/gering.mp3" AutoPlay="False" />
-                <MediaElement x:Name="HateeSound" Source="/Assets/hatee.mp3" AutoPlay="False" />
-                <MediaElement x:Name="JofftchoffSound" Source="/Assets/jofftchoff.mp3" AutoPlay="False" />
-                <MediaElement x:Name="WapaSound" Source="/Assets/wapa.mp3" AutoPlay="False" />
-            </Grid>-->
             <Image Source="/Assets/fox.png" Tap="Image_Tap" RenderTransformOrigin="0.5,0.5" Margin="0,-46,0,46">
                 <Image.RenderTransform>
                     <CompositeTransform ScaleY="0.5" ScaleX="0.5"/>
                 </Image.RenderTransform>
             </Image>
-            <TextBlock x:Name="Text1" Text="Dummy" FontSize="45" TextAlignment="Center" VerticalAlignment="Bottom" Margin="10,0,10,191" FontFamily="Calibri" Tap="Text1_OnTap"/>
-            <TextBlock x:Name="Text2" Text="Dummy" FontSize="45" TextAlignment="Center" VerticalAlignment="Bottom" Margin="10,0,10,133" FontFamily="Calibri" Tap="Text2_OnTap"/>
-            <TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="Music by Ylvis (SBS Discovery © 2013)" VerticalAlignment="Bottom" FontSize="11"/>
-            <Button x:Name="RollButton" Content="Roll" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click" Margin="196,657,195,39"/>
+            <TextBlock x:Name="Text1" Text="Dummy" FontSize="45" TextAlignment="Center" VerticalAlignment="Bottom" Margin="10,0,10,191" FontFamily="Calibri" Tap="Text1_OnTap" Foreground="White"/>
+            <TextBlock x:Name="Text2" Text="Dummy" FontSize="45" TextAlignment="Center" VerticalAlignment="Bottom" Margin="10,0,10,133" FontFamily="Calibri" Tap="Text2_OnTap" Foreground="White"/>
+            <TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="Music by Ylvis (SBS Discovery © 2013)" VerticalAlignment="Bottom" FontSize="11" Foreground="White"/>
+            <Button x:Name="RollButton" Content="Roll" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click" Margin="196,657,195,39" Foreground="White" BorderBrush="White"/>
         </Grid>
     </Grid>
 </phone:PhoneApplicationPage>

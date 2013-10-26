@@ -1,16 +1,12 @@
 ﻿using System;
-using System.IO;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Resources;
 using System.Windows.Threading;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
-using Color = System.Windows.Media.Color;
 
 namespace WhatDoesTheFoxSay
 {
